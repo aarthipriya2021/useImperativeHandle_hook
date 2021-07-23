@@ -1,0 +1,18 @@
+Hooks:
+     -	Hooks are the functions which "hook into" React state and lifecycle features from        
+            function  components	.
+    -	React offers a number of built-in Hooks. A few of these include  useState(),    
+         useEffect(),  useContext(), useReducer(),    and useRef() 
+
+Rules:
+    -   Never call Hooks from inside a loop, condition or nested function
+    -   Hooks should sit at the top-level of your component
+    -   Only call Hooks from React functional components
+    -   Never call a Hook from a regular function
+    -   Hooks can call other Hooks
+
+useImperativeHandle:
+    -    useImperativeHandle customizes the instance value that is exposed to parent components when using ref . 
+    -   useImperativeHandle hooks is different from the useRef hook in majorly two ways −
+            It allows handling and customizing the returned value explicitly.
+            It allows you to replace the native instances of the ref object with the user-defined ones.
